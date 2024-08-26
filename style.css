@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: josefin-sans !important;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: white;
+}
+
+@font-face {
+    src: url(Fonts/JosefinSans-VariableFont_wght.89302acc.ttf);
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: josefin-sans;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 80px;
+    width: 130px;
+    text-align: center;
+}
+
+.smit-logo {
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.profile {
+    height: 80px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+}
+
+.profile-img {
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.username {
+    margin-top: 30px;
+    margin-left: 10px;
+    color: rgb(46, 65, 128);
+}
+
+.select {
+    width: 30px;
+    outline: none;
+    border: none;
+}
+
+.welcome-p {
+    height: 50px;
+    width: 30%;
+    display: flex;
+    margin-top: 43px;
+    margin-left: 100px;
+}
+
+.hello-icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.hi-p {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(65, 65, 131);
+
+}
+
+.hi-p2 {
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    width: 1150px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: rgb(177, 174, 174);
+}
+
+.row-1 {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-1-items {
+    height: 230px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .2s .2s ease-in-out;
+    color: rgb(65, 65, 131);
+}
+
+
+.row-2 {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-2-items {
+    height: 230px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .2s .2s ease-in-out;
+    color: rgb(65, 65, 131);
+}
+
+
+
+pre {
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    border: 1px solid rgb(20, 20, 77);
+    border-radius: 5px;
+    transition: all .3s .3s ease-in-out;
+    color: rgb(65, 104, 104);
+    outline: none;
+
+}
+
+button:hover {
+    background-color: rgb(126, 187, 211);
+    border: none;
+}
+
+.dev-quiz {
+    text-decoration: none;
+    color: rgb(65, 104, 104);
+}
+
+.row-3 {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-3-items {
+    height: 230px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .2s .2s ease-in-out;
+    color: rgb(65, 65, 131);
+}
+
+
+
+.form {
+    text-align: center;
+    height: 500px;
+    width: 50%;
+    margin-left: 350px;
+    padding-top: 70px;
+}
+
+.name {
+    height: 35px;
+    width: 250px;
+    margin-left: 20px;
+    color: rgb(65, 65, 131);
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(189, 189, 192);
+    padding-left: 10px;
+}
+
+
+.email {
+    height: 35px;
+    width: 250px;
+    margin-left: 20px;
+    color: rgb(65, 65, 131);
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(189, 189, 192);
+    padding-left: 10px;
+}
+
+.batch {
+    height: 35px;
+    width: 250px;
+    margin-left: 20px;
+    color: rgb(65, 65, 131);
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(189, 189, 192);
+    padding-left: 10px;
+}
+
+
+h1 {
+    color: rgb(76, 76, 139);
+    margin-bottom: 50px;
+}
+
+.submit-btn {
+    height: 40px;
+    width: 100px;
+    margin-left: 300px;
+    background-color: rgb(126, 187, 211);
+    font-size: 15px;
+    border: none;
+}
+
+.submit-btn a {
+    background-color: rgb(126, 187, 211);
+    text-decoration: none;
+}
+
+.mcq-h {
+    text-align: center;
+    color: rgb(65, 65, 131);
+    font-size: 30px;
+    margin-top: -100px;
+}
+
+.q-1 {
+    height: 100vh;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.submit-btn2 {
+    height: 40px;
+    width: 100px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: rgb(126, 187, 211);
+    border: 1px solid rgb(126, 187, 211);
+}
+
+.submit-btn2 a {
+    text-decoration: none;
+
+}
+
+.submit-btn2:hover {
+    color: white;
+}
+
+.result-p1 {
+    margin-left: 100px;
+    color: rgb(65, 65, 131);
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.result {
+    height: 500px;
+    width: 500px;
+    margin-left: 370px;
+}
+
+.result-p2 {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.result-p3 {
+    margin-left: 0px;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(63, 113, 219);
+    font-weight: 700;
+}
+
+.round {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-top: 2px green solid;
+    border-bottom: 2px green solid;
+    border-right: 2px green solid;
+    border-left: 2px rgb(221, 218, 218) solid;
+    margin-left: 200px;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: green;
+    font-size: 22px;
+
+
+}
+
+.btn-back {
+    height: 40px;
+    width: 150px;
+    margin-left: 180px;
+    align-items: center;
+    border: 1px solid rgb(63, 113, 219);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(63, 113, 219);
+    margin-top: 40px;
+
+}
+
+.btn-back a {
+    text-decoration: none;
+    color: rgb(63, 113, 219);
+}
+
+.result-hr1 {
+    align-items: center;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.result-hr2 {
+    align-items: center;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.result-hr3 {
+    align-items: center;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
